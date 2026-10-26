@@ -1,0 +1,27 @@
+{
+  "ui_port": 8765,
+  "runtime_port": 5001,
+  "runtime_exe": "runtime/koboldcpp.exe",
+  "model_file": "model/Qwen3-4B-Q4_K_M.gguf",
+  "context_length": 2048,
+  "max_response_tokens": 512,
+  "threads": 0,
+  "use_gpu": false,
+  "temperature": 0.6,
+  "open_browser": true,
+  "external_runtime": false,
+  "host": "0.0.0.0",
+  "online_base_url": "https://rbug.tech/api/v1",
+  "online_api_key": "rbp-5cpanAjGFm31GKlzlHtOjs4E8QiIilN0",
+  "online_default_model": "claude-opus-4.8",
+  "online_models": [
+    "claude-opus-4.8",
+    "claude-mythos-preview",
+    "claude-opus-5.5",
+    "gpt-5.5",
+    "gemini-3.7-flash",
+    "qwen3.8-27b",
+    "seed-2.1-pro",
+    "grok-4.6"
+  ]
+}
